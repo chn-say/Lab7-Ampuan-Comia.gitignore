@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - My Online Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header>
+    <h1>My Online Store</h1>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="cart.html">Shopping Cart</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="page-layout">
+
+    <section class="cart-container">
+        <h2>My Shopping Cart</h2>
+
+        <ul class="cart-list">
+
+            <li class="cart-item">
+                <img src="images/sunscreen.jpg" alt="Vilily Sunscreen">
+
+                <div class="item-details">
+                    <h3>Vilily Sunscreen</h3>
+                    <p>Price: ₱99.00</p>
+
+                    <label for="qty1">Qty:</label>
+                    <input type="number" id="qty1" value="1" min="1">
+                </div>
+            </li>
+
+            <li class="cart-item">
+                <img src="images/sneakers.jpg" alt="Sneakers for Men and Women">
+
+                <div class="item-details">
+                    <h3>Sneakers for Men and Women</h3>
+                    <p>Price: ₱338.99</p>
+
+                    <label for="qty2">Qty:</label>
+                    <input type="number" id="qty2" value="2" min="1">
+                </div>
+            </li>
+
+        </ul>
+    </section>
+
+    <a href="checkout.html">
+        <button>Proceed to Checkout</button>
+    </a>
+
+</main>
+<script src="script.js"></script>
+</body>
+</html>
