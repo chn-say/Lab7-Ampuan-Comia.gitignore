@@ -1,1 +1,0 @@
-# Lab7-Ampuan-Comia.gitignore
