@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Our Online Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="checkoutcontainer">
+
+    <main>
+        <h1>Checkout</h1>
+
+        <form>
+        
+        
+        <h2>Shipping Information</h2>
+
+        <label>Full Name</label>
+        <input type="text" required>
+
+        <label>Address</label>
+        <input type="text" required>
+
+        <label>Zip Code</label>
+        <input type="text" required>
+
+        <h2>Payment Details</h2>
+        
+        <label>
+        <input type="radio" name="payment"> Credit Card
+        </label>
+
+        <label>
+        <input type="radio" name="payment"> GCash
+        </label>
+
+        <label>
+        <input type="radio" name="payment"> Cash on Delivery
+        </label>
+
+        <button type="submit">Place Order</button>
+
+        </form>
+    </main>
+
+    <aside>
+        <h3>Order Summary</h3>
+        <p>Subtotal: ₱775.98</p>
+        <p>Shipping: ₱50.00</p>
+        <p><strong>Total: ₱825.98</strong></p>
+    </aside>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

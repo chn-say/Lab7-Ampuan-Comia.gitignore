@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Listing - Our Online Store</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header class="site-header">
+    <nav class="navbar">
+        <h2 class="logo">Our Store</h2>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html" class="active">Products</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="products-page">
+
+    <aside class="filters">
+
+        <h2>Filters</h2>
+
+        <fieldset>
+            <legend>Category</legend>
+
+            <label>
+                <input type="checkbox"> Beauty Products
+            </label>
+
+            <label>
+                <input type="checkbox"> Shoes
+            </label>
+
+            <label>
+                <input type="checkbox"> Clothing
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Price Range</legend>
+
+            <label>
+                <input type="radio" name="price"> Under ₱100
+            </label>
+
+            <label>
+                <input type="radio" name="price"> ₱100 - ₱200
+            </label>
+
+            <label>
+                <input type="radio" name="price"> Over ₱200
+            </label>
+        </fieldset>
+
+        <button class="apply-btn">Apply Filters</button>
+
+    </aside>
+
+    <main class="product-area">
+
+        <h1 class="page-title">Our Products</h1>
+
+        <div class="products">
+
+            <article class="product">
+                <img src="images/vilily-sunscreen.jpg" alt="Vilily Pink Beauty Sunscreen with SPF90++">
+                <h3>Vilily Pink Beauty Sunscreen with SPF90++</h3>
+                <p class="price">₱99.00</p>
+                <a href="product-detail.html?id=1" class="view-btn">View Details</a>
+            </article>
+
+            <article class="product">
+                <img src="images/matte-powder.jpg" alt="Long Lasting Waterproof Matte Face Powder">
+                <h3>Oil Control Matte Face Pressed Powder</h3>
+                <p class="price">₱63.00</p>
+                <a href="product-detail.html?id=2" class="view-btn">View Details</a>
+            </article>
+
+            <article class="product">
+                <img src="images/sneakers.jpg" alt="Sneakers for Men and Women">
+                <h3>Sneakers for Men and Women</h3>
+                <p class="price">₱338.99</p>
+                <a href="product-detail.html?id=3" class="view-btn">View Details</a>
+            </article>
+
+            <article class="product">
+                <img src="images/running-shoes.jpg" alt="Running Shoes">
+                <h3>Running Shoes</h3>
+                <p class="price">₱250.00</p>
+                <a href="product-detail.html?id=4" class="view-btn">View Details</a>
+            </article>
+
+            <article class="product">
+                <img src="images/t-shirt.jpg" alt="Unisex Printed T-Shirt">
+                <h3>T-Shirt for Men Unisex Round Neck Printed</h3>
+                <p class="price">₱174.00</p>
+                <a href="product-detail.html?id=5" class="view-btn">View Details</a>
+            </article>
+
+            <article class="product">
+                <img src="images/matte-lipstick.jpg" alt="Matte Lipstick">
+                <h3>Matte Lipstick</h3>
+                <p class="price">
+                    ₱107.99 <del>₱134.99</del>
+                </p>
+                <a href="product-detail.html?id=6" class="view-btn">View Details</a>
+            </article>
+
+            <article class="product">
+                <img src="images/running-shoes-discounted.jpg" alt="Running Shoes Discounted">
+                <h3>Running Shoes</h3>
+                <p class="price">
+                    ₱212.50 <del>₱250.00</del>
+                </p>
+                <a href="product-detail.html?id=7" class="view-btn">View Details</a>
+            </article>
+
+            <article class="product">
+                <img src="images/v-neck-top.jpg" alt="Casual V-Neck Top for Women">
+                <h3>Casual V-Neck Body Hugging Top</h3>
+                <p class="price">
+                    ₱152.09 <del>₱168.99</del>
+                </p>
+                <a href="product-detail.html?id=8" class="view-btn">View Details</a>
+            </article>
+
+        </div>
+
+    </main>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
